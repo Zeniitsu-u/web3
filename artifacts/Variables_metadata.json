@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "DoSomething",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "eight",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"4Varibles.sol": "Variables"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"4Varibles.sol": {
+			"keccak256": "0x48035ac721755e75ead3fc697dc03b3d8e4c5b2626fa4429a63a7329e8e01665",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://22dc8e29f0cd317c4a9ff97a0f88bac324edfc46491e98065c0d8236cb02e1dc",
+				"dweb:/ipfs/QmQkLP2mdCQoNitUreJGbDVum7hTz5md1JDAZfzCuyHy46"
+			]
+		}
+	},
+	"version": 1
+}

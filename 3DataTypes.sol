@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.26;
 
-/*     Data Types
+/*     
 Unsigned 
 uint8 to uint256( can also be written as uint )
 uint8   --> 0 to 2**8-1 memory
