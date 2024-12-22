@@ -5,14 +5,16 @@ contract Variables{
 
     uint8 public eight = 8; //This is state varible,Can be accessed thoughout the contract
 
-    function DoSomething() public view {
+    function DoSomething() public view returns(uint8,uint){
         //These local(inside fn) variables are not stored on blockchain
-        uint some = 4;
+        uint8 some = 4;
 
         //global varibles
         //provides info about blockchain
         uint timeStamp = block.timestamp;
-        address sender = msg.sender;
+        // address sender = msg.sender;
+
+        return (some,timeStamp);
         
     }
 }
