@@ -46,11 +46,11 @@ contract Arrays{
     //So, to get the required array, we should shift the array items and 
     //pop the last dublicate item
 
-    function remove_item(uint256 i ) public {
+    function remove_item(uint256 _index ) public {
         
-        require(i < arr.length,"Length of array should be more");
-        for(i;i < arr.length-1;i++){
-            arr[i] = arr[i-1];
+        require(_index < arr.length,"Length of array should be more");
+        for(uint i = _index;i < arr.length-1;i++){
+            arr[i] = arr[i+1];
         }
         arr.pop();
     }
